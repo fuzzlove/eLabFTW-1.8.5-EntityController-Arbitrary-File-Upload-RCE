@@ -6,7 +6,7 @@
 # Vulnerable Software   : eLabFTW 1.8.5
 # Vendor Homepage       : https://www.elabftw.net/
 # Version               : 1.8.5
-# Software Link         : https://doc.elabftw.net/
+# Software Link         : https://github.com/elabftw/elabftw
 # Tested On             : Linux / PHP Version 7.0.33 / Default installation (Softaculous)
 # Author Site		: http://incidentsecurity.com | https://github.com/fuzzlove
 #
