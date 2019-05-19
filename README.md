@@ -1,6 +1,6 @@
 - Exploit Title         : eLabFTW 1.8.5 'EntityController' Arbitrary File Upload / RCE
 - Date                  : 5/18/19
-- Exploit Author        : liquidsky (JMcPeters)
+- Exploit Author        : liquidsky (Joseph McPeters)
 - Vulnerable Software   : eLabFTW 1.8.5
 - Vendor Homepage       : https://www.elabftw.net/
 - Version               : 1.8.5
