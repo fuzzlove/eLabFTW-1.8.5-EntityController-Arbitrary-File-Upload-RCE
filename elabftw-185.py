@@ -8,7 +8,7 @@
 # Version               : 1.8.5
 # Software Link         : https://github.com/elabftw/elabftw
 # Tested On             : Linux / PHP Version 7.0.33 / Default installation (Softaculous)
-# Author Site		: http://incidentsecurity.com | https://github.com/fuzzlove
+# Author Site		: http://incidentsecurity.com | https://github.com/fuzzlove/eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE
 #
 # Greetz : wetw0rk, offsec ^^
 #
