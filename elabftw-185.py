@@ -9,7 +9,7 @@
 # Software Link         : https://github.com/elabftw/elabftw
 # Tested On             : Linux / PHP Version 7.0.33 / Default installation (Softaculous)
 # Author Site		: http://incidentsecurity.com | https://github.com/fuzzlove/eLabFTW-1.8.5-EntityController-Arbitrary-File-Upload-RCE
-#
+# CVE                   : CVE-2019-12185 | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12185
 # Greetz : wetw0rk, offsec ^^
 #
 # Description: eLabFTW 1.8.5 is vulnerable to arbitrary file uploads via the /app/controllers/EntityController.php component.
