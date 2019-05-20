@@ -7,6 +7,7 @@
 - Software Link         : https://doc.elabftw.net/
 - Tested On             : Linux / PHP Version 7.0.33 / Default installation (Softaculous)
 - Author Site		: http://incidentsecurity.com | https://github.com/fuzzlove
+- CVE                   : CVE-2019-12185 | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12185
 
 - Greetz : wetw0rk, offsec ^^
 
